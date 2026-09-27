@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Illustration of a colorful indoor play zone with a ball pit, slide and balloons — placeholder artwork, replace with a real facility photo">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E4F6FC"/>
+      <stop offset="100%" stop-color="#FFF8E6"/>
+    </linearGradient>
+    <linearGradient id="slide" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5CBADF"/>
+      <stop offset="100%" stop-color="#3F9DC3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sky)"/>
+
+  <!-- sun -->
+  <circle cx="1030" cy="140" r="70" fill="#FFD166"/>
+  <!-- clouds -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <ellipse cx="180" cy="120" rx="70" ry="32"/>
+    <ellipse cx="230" cy="105" rx="50" ry="26"/>
+    <ellipse cx="560" cy="90" rx="60" ry="28"/>
+  </g>
+
+  <!-- floor -->
+  <rect x="0" y="720" width="1200" height="180" fill="#FFF6E2"/>
+
+  <!-- slide structure -->
+  <rect x="120" y="380" width="60" height="340" rx="16" fill="#FFAB72"/>
+  <path d="M180 400 Q 420 420 420 620 L 360 620 Q 360 460 180 460 Z" fill="url(#slide)"/>
+  <rect x="330" y="610" width="110" height="40" rx="14" fill="#F0B733"/>
+
+  <!-- ball pit -->
+  <ellipse cx="820" cy="760" rx="260" ry="80" fill="#FF90AE"/>
+  <ellipse cx="820" cy="740" rx="255" ry="72" fill="#FFFFFF"/>
+  <g>
+    <circle cx="650" cy="720" r="26" fill="#FFD166"/>
+    <circle cx="710" cy="700" r="30" fill="#5CBADF"/>
+    <circle cx="780" cy="725" r="24" fill="#FFAB72"/>
+    <circle cx="840" cy="695" r="28" fill="#7DDB95"/>
+    <circle cx="905" cy="720" r="26" fill="#FF90AE"/>
+    <circle cx="965" cy="700" r="24" fill="#FFD166"/>
+    <circle cx="700" cy="745" r="22" fill="#7DDB95"/>
+    <circle cx="860" cy="750" r="20" fill="#5CBADF"/>
+    <circle cx="1000" cy="735" r="22" fill="#FFAB72"/>
+  </g>
+
+  <!-- balloons -->
+  <g>
+    <circle cx="220" cy="600" r="34" fill="#FF90AE"/>
+    <line x1="220" y1="634" x2="220" y2="700" stroke="#F2718F" stroke-width="3"/>
+    <circle cx="280" cy="560" r="28" fill="#7DDB95"/>
+    <line x1="280" y1="588" x2="280" y2="660" stroke="#58C274" stroke-width="3"/>
+  </g>
+
+  <!-- playful doodles -->
+  <g fill="#FFAB72">
+    <path d="M500 200 l8 18 20 2 -15 14 4 20 -17 -11 -17 11 4 -20 -15 -14 20 -2 z"/>
+  </g>
+  <g fill="#5CBADF">
+    <path d="M980 320 l6 14 15 2 -11 10 3 15 -13 -8 -13 8 3 -15 -11 -10 15 -2 z"/>
+  </g>
+  <g fill="#FF90AE">
+    <circle cx="90" cy="500" r="6"/>
+    <circle cx="130" cy="470" r="5"/>
+    <circle cx="1080" cy="500" r="6"/>
+    <circle cx="1120" cy="540" r="5"/>
+  </g>
+</svg>
